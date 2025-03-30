@@ -1,0 +1,93 @@
+TypeScript 是一種由微軟開發和維護的程式語言，它透過添加可選的靜態類型和其他功能來擴展 JavaScript。以下是有關 TypeScript 的關鍵點：
+
+## 定義與概述
+
+- TypeScript 是 JavaScript 的超集，這意味著所有有效的 JavaScript 代碼也是有效的 TypeScript 代碼[^Top-6-Benefits-of-Implementing-TypeScript][^Learn-TypeScript-–-The-Ultimate-Beginners-Guide][^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]。
+- 它為 JavaScript 添加了可選的靜態類型、類和其他功能[^Top-6-Benefits-of-Implementing-TypeScript][^Learn-TypeScript-–-The-Ultimate-Beginners-Guide][^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]。
+- TypeScript 編譯成普通的 JavaScript，使其能在 JavaScript 可運行的任何地方執行（瀏覽器、Node.js、Deno 等）[^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]。
+
+## 主要特性
+
+1. 靜態類型：TypeScript 為 JavaScript 添加可選的類型註解，使在編譯時進行類型檢查成為可能[^Top-6-Benefits-of-Implementing-TypeScript][^Learn-TypeScript-–-The-Ultimate-Beginners-Guide][^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]。
+
+2. 物件導向程式設計：支援類、介面、繼承和模塊[^Top-6-Benefits-of-Implementing-TypeScript][^TypeScript-Introduction]。
+
+3. 增強的 IDE 支援：在開發環境中提供更好的自動完成、重構和錯誤檢測[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each]。
+
+4. 相容性：與現有的 JavaScript 代碼和庫兼容[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^Learn-TypeScript-–-The-Ultimate-Beginners-Guide]。
+
+5. 可擴展性：設計用於開發大型應用程序[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each]。
+
+6. 先進的 JavaScript 功能：支援最新的 ECMAScript 功能，通常在瀏覽器廣泛可用之前就已支援[^TypeScript-Introduction]。
+
+## 優點
+
+1. 改善代碼質量：靜態類型有助於在開發早期捕捉錯誤[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each][^What-is-TypeScript?-An-overview-for-JavaScript-programmers]。
+
+2. 增強生產力：更好的工具和自動完成功能提高了開發速度[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each][^What-is-TypeScript?-An-overview-for-JavaScript-programmers]。
+
+3. 更易於維護：類型註解使代碼更易讀且自我文檔化[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each][^What-is-TypeScript?-An-overview-for-JavaScript-programmers]。
+
+4. 更好的協作：類型作為一種文檔形式，有助於團隊溝通[^What-is-TypeScript?-An-overview-for-JavaScript-programmers]。
+
+5. 與 JavaScript 相容：允許在現有專案中逐步採用[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^Learn-TypeScript-–-The-Ultimate-Beginners-Guide]。
+
+## 工作原理
+
+1. 開發：編寫帶有類型註解和進階功能的 TypeScript 代碼[^What-Is-TypeScript?-(Definition,-How-To,-vs.-JavaScript)-|-Built-In]。
+
+2. 編譯：TypeScript 編譯器檢查類型錯誤並將代碼轉換為 JavaScript[^What-Is-TypeScript?-(Definition,-How-To,-vs.-JavaScript)-|-Built-In][^Is-TypeScript-Really...-A-Language??---DEV-Community]。
+
+3. 執行：生成的 JavaScript 代碼可以在任何 JavaScript 環境中運行[^What-Is-TypeScript?-(Definition,-How-To,-vs.-JavaScript)-|-Built-In][^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]。
+
+## 使用與採用
+
+- TypeScript 在大型應用程序和流行框架如 Angular 中被廣泛使用[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn][^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each]。
+- 它在開發者中正變得越來越受歡迎，在開發者調查中排名較高[^TypeScript:-Handbook---The-TypeScript-Handbook]。
+
+## 考量
+
+- 學習曲線：開發者需要學習 TypeScript 的類型系統和特性[^What-is-TypeScript?-An-overview-for-JavaScript-programmers]。
+- 建置步驟：在執行之前需要編譯，這增加了開發過程的複雜性[^Is-TypeScript-Really...-A-Language??---DEV-Community]。
+
+TypeScript 為 JavaScript 開發者提供了一套強大的工具，增強了代碼質量和開發者生產力，同時保持與 JavaScript 生態系統的相容性。
+
+## 深入閱讀
+
+[^What-is-TypeScript?-Definition,-History,-Features-and-Uses-of-TypeScript]: [什麼是 TypeScript? 定義、歷史、特性和用途](https://invedus.com/blog/what-is-typescript-definition-history-features-and-uses-of-typescript/)
+
+[^Top-6-Benefits-of-Implementing-TypeScript]: [實施 TypeScript 的六大好處](https://strapi.io/blog/benefits-of-typescript)
+
+[^Top-50-TypeScript-Interview-Questions-With-Answers-for-2025-|-Simplilearn]: [2025 年 TypeScript 面試問題前 50 名及答案 | Simplilearn](https://www.simplilearn.com/tutorials/typescript-tutorial/typescript-interview-questions)
+
+[^TypeScript-Introduction]: [TypeScript 介紹](https://www.w3schools.com/typescript/typescript_intro.php)
+
+[^TypeScript-vs-JavaScript:-Key-Differences,-Features,-and-When-to-Use-Each]: [TypeScript 與 JavaScript: 主要差異、特性及何時使用](https://codeparrot.ai/blogs/typescript-vs-javascript-key-differences-features-and-when-to-use-each)
+
+[^Learn-TypeScript-–-The-Ultimate-Beginners-Guide]: [學習 TypeScript – 終極新手指南](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/)
+
+[^What-Is-TypeScript?-(Definition,-How-To,-vs.-JavaScript)-|-Built-In]: [什麼是 TypeScript? (定義、如何、與 JavaScript 的比較) | Built In](https://builtin.com/software-engineering-perspectives/typescript)
+
+[^Mastering-TypeScript:-Benefits-and-Best-Practices]: [精通 TypeScript: 好處和最佳實踐](https://www.telerik.com/blogs/mastering-typescript-benefits-best-practices)
+
+[^TypeScript-Practical-Introduction]: [TypeScript 實用入門](https://auth0.com/blog/typescript-practical-introduction/)
+
+[^TypeScript---Wikipedia]: [TypeScript - 維基百科](https://en.wikipedia.org/wiki/TypeScript)
+
+[^TypeScript:-Documentation---TypeScript-for-JavaScript-Programmers]: [TypeScript: 文檔 - JavaScript 程式設計師的 TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+
+[^What-is-TypeScript-and-Why-You-Should-Use-It]: [什麼是 TypeScript 以及為什麼你應該使用它](https://prismic.io/blog/what-is-typescript)
+
+[^TypeScript:-JavaScript-With-Syntax-For-Types.]: [TypeScript: 具有類型語法的 JavaScript。](https://www.typescriptlang.org)
+
+[^What-is-TypeScript?-Benefits-of-TypeScript-and-Disadvantages-|-itjet]: [什麼是 TypeScript? TypeScript 的好處和缺點 | itjet](https://itjet.io/blog/what-is-typescript)
+
+[^What-is-TypeScript?-An-overview-for-JavaScript-programmers]: [什麼是 TypeScript? JavaScript 程式設計師的概述](https://2ality.com/2025/02/what-is-typescript.html)
+
+[^Is-TypeScript-Really...-A-Language??---DEV-Community]: [TypeScript 真的是一種語言嗎?? - DEV 社區](https://dev.to/bytebodger/is-typescript-really-a-language-ep1)
+
+[^TypeScript:-Handbook---The-TypeScript-Handbook]: [TypeScript: 手冊 - TypeScript 手冊](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+[^TypeScript:-Documentation---TypeScript-for-the-New-Programmer]: [TypeScript: 文檔 - 新手程式設計師的 TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+
+[^--YouTube]: [- YouTube](https://www.youtube.com/watch?v=zpphULkLr3Y)
