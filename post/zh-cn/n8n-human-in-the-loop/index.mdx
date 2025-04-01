@@ -1,0 +1,53 @@
+---
+isDraft: false
+icon:
+  name: material-symbols:360-rounded
+  title: 旋轉符號
+subHeadline: n8n Human in the Loop
+headline: n8n Human in the Loop 替 AI 流程建構反饋
+excerpt: 近期在琢磨刚玩上手的 n8n 的各式功能，其中在制作 AI 流程时发现如果其中一个环节不如预期整个流程重来十分的耗费时间与金钱，这时候我们就可以添加上人类的反馈，重复的修改提示词直到满意为止。在制作文章研究生成 AI 时我也运用了相关功能来达成与 AI 沟通动态调整需求的目的。
+category: n8n
+publishDate: 2025-03-31
+---
+
+## 前言
+
+近期在琢磨刚玩上手的 n8n 的各式功能，其中在制作 AI 流程时发现如果其中一个环节不如预期整个流程重来十分的耗费时间与金钱，假如你正在制作一个故事生成器，有不同的 AI 生成：角色设定、故事大纲、对话内容等，这些环节如果有一个不如预期，整个过程只能打掉再修改，这时候我们就可以 **添加上人类的反馈，重复的修改提示词直到满意为止** 。
+
+在制作文章研究生成 AI 时我也运用了相关功能来达成与 AI 沟通动态调整需求的目的。
+
+## Human In the Loop
+
+![Human in the loop node](human-in-the-loop.webp)
+
+HIL 是 [n8n 1.78 推出的功能](https://github.com/n8n-io/n8n/releases/tag/n8n%401.78.0)，可以在创建节点栏位中选择，有 Discord、Slack、Telegram 等通讯软件可以选择，可以随时随地的进行反馈。
+
+![hil panel](hil-panel.webp "HIL Telegram 面板")
+
+它的功能其实就像是发送回应并等待，可以期待有数种回应格式：
+
+- Approval
+- FreeText
+- CustomForm
+
+用途就是选择对应的通讯软件整合并发送对应的行动链接与信息，让人给予回应。
+
+![HIL Response](hil-response.webp)
+
+该节点会自动等待并回传提交的结果。举例来说我能丢给 AI 节点这样一笔资料，并且在询问完人类的意见后，如果需要重新生成（由 AI 分析反馈字义判断，真花俏😆），创立一笔新的反馈，塞入最新生成的文章与反馈再丢回给 AI 重新打磨：
+
+```js
+[
+  {
+    "feedback": "...",
+    "article": "..."
+  }
+]
+```
+
+![Workflow](workflow.webp)
+
+
+## 延伸阅读
+
+- [n8n Tutorial: AI Agents with Human Feedback](https://www.youtube.com/watch?v=4wsV1GgIsrs) 
