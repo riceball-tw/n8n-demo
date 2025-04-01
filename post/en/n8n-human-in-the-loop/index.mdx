@@ -1,0 +1,53 @@
+---
+isDraft: false
+icon:
+  name: material-symbols:360-rounded
+  title: Rotation symbol
+subHeadline: n8n Human in the Loop
+headline: Feedback Loop for AI Processes with n8n Human in the Loop
+excerpt: Recently, I have been exploring various features of n8n that I just started to use. I found that when creating AI processes, if one of the links does not meet expectations, restarting the entire process can be very time-consuming and costly. In such cases, we can add human feedback, modifying prompts repeatedly until we are satisfied. I also used this feature during my article research with generated AI to dynamically adjust the needs in communication with AI.
+category: n8n
+publishDate: 2025-03-31
+---
+
+## Introduction
+
+Recently, I have been exploring various features of n8n that I just started to use. I found that when creating AI processes, if one of the links does not meet expectations, restarting the entire process can be very time-consuming and costly. For example, if you are creating a story generator with different AI generations: character settings, plot outlines, dialogue content, etc., if any of these links do not meet expectations, the entire process has to be scrapped and modified. At this point, we can **add human feedback, modifying prompts repeatedly until we are satisfied**. 
+
+I also utilized this feature during my article research with generated AI to dynamically adjust the needs in communication with AI.
+
+## Human In the Loop
+
+![Human in the loop node](human-in-the-loop.webp)
+
+HIL is a feature introduced in [n8n 1.78](https://github.com/n8n-io/n8n/releases/tag/n8n%401.78.0), which can be selected in the node creation field, with options for communication software like Discord, Slack, Telegram, etc., allowing feedback to be given anytime and anywhere.
+
+![hil panel](hil-panel.webp "HIL Telegram panel")
+
+Its function is essentially to send a response and wait, with several expected response formats:
+
+- Approval
+- FreeText
+- CustomForm
+
+The purpose is to select the corresponding communication software integration and send the corresponding action links and messages, enabling people to provide feedback.
+
+![HIL Response](hil-response.webp)
+
+The node will automatically wait and return the submitted results. For example, I can send a piece of data to the AI node like this, and after asking for human opinions, if a regeneration is needed (analyzing feedback for meaning interpretation, very sophisticated 😆), create a new feedback entry, inputting the latest generated article and feedback back to AI for refinement:
+
+```js
+[
+  {
+    "feedback": "...",
+    "article": "..."
+  }
+]
+```
+
+![Workflow](workflow.webp)
+
+
+## Further Reading
+
+- [n8n Tutorial: AI Agents with Human Feedback](https://www.youtube.com/watch?v=4wsV1GgIsrs)
